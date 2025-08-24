@@ -1,0 +1,302 @@
+<div class="d-flex gap-4 border-bottom pb-5 mb-5">
+  <!-- 左側類別名稱 -->
+  <div class="flex-shrink-0 side-width">
+    <h2 class="fs-4 mb-3">職旅計劃概況</h2>
+    <p class="text-natural-50">
+      欄位皆為<span
+        class="badge rounded-pill text-bg-danger ms-1"
+        >必填</span
+      >
+    </p>
+  </div>
+  <!-- 右側表單 -->
+  <div>
+    <!-- 目前職業狀態 -->
+    <div class="mb-4">
+      <p class="mb-2">目前職業狀態</p>
+      <div class="px-2">
+        <div class="form-check form-check-inline me-4 mb-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="jobStatus"
+            id="job-fulltime"
+            value="fulltime"
+            checked
+          />
+          <label class="form-check-label" for="job-fulltime"
+            >全職上班族</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="jobStatus"
+            id="job-parttime"
+            value="parttime"
+          />
+          <label class="form-check-label" for="job-parttime"
+            >兼職工作者</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="jobStatus"
+            id="job-freelancer"
+            value="freelancer"
+          />
+          <label class="form-check-label" for="job-freelancer"
+            >自由工作者/接案者</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="jobStatus"
+            id="job-digital"
+            value="digital"
+          />
+          <label class="form-check-label" for="job-digital"
+            >數位遊牧者</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="jobStatus"
+            id="job-founder"
+            value="founder"
+          />
+          <label class="form-check-label" for="job-founder"
+            >創業者/企業主</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="jobStatus"
+            id="job-unemploy"
+            value="unemploy"
+          />
+          <label class="form-check-label" for="job-unemploy"
+            >待業中</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="jobStatus"
+            id="job-other"
+            value="other"
+          />
+          <label class="form-check-label" for="job-other"
+            >其他</label
+          >
+        </div>
+      </div>
+    </div>
+    <!-- 工作產業 -->
+    <div class="mb-4">
+      <div class="dropdown">
+        <button
+          class="form-select text-start py-3"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          工作產業
+        </button>
+        <ul class="dropdown-menu w-100 mt-2">
+          <li>
+            <a class="dropdown-item" href="#">科技</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">媒體</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">教育</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">金融</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">醫療健康</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">零售製造</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">服務業</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">藝術創意</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">非營利組織</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 工作年資 -->
+    <div class="mb-4">
+      <div class="dropdown">
+        <button
+          class="form-select text-start py-3"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          工作年資
+        </button>
+        <ul class="dropdown-menu w-100 mt-2">
+          <li>
+            <a class="dropdown-item" href="#">1 年以下</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">1-3 年</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">3-5 年</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">5-10 年</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">10 年以上</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 月收入區間 -->
+    <div class="mb-4">
+      <p class="mb-2">月收入區間</p>
+      <div class="px-2">
+        <div class="form-check form-check-inline me-4 mb-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="incomeStatus"
+            id="income-0"
+            value="income-0"
+            checked
+          />
+          <label class="form-check-label" for="income-0"
+            >3 萬以下</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="incomeStatus"
+            id="income-1"
+            value="income-1"
+          />
+          <label class="form-check-label" for="income-1"
+            >3-5 萬</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="incomeStatus"
+            id="income-2"
+            value="income-2"
+          />
+          <label class="form-check-label" for="income-2"
+            >5-8 萬</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="incomeStatus"
+            id="income-3"
+            value="income-3"
+          />
+          <label class="form-check-label" for="income-3"
+            >8-12 萬</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="incomeStatus"
+            id="income-4"
+            value="income-4"
+          />
+          <label class="form-check-label" for="income-4"
+            >12-20 萬</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="incomeStatus"
+            id="income-5"
+            value="income-5"
+          />
+          <label class="form-check-label" for="income-5"
+            >20 萬以上</label
+          >
+        </div>
+      </div>
+    </div>
+    <!-- 職業摘要 -->
+    <div class="mb-4">
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="職業摘要（簡短描述您的專業背景和核心競爭力最多 300 字）"
+          id="job-desc"
+          style="height: 160px"
+          maxlength="300"
+        ></textarea>
+        <label for="job-desc">
+          職業摘要（簡短描述您的專業背景和核心競爭力最多
+          300字）
+        </label>
+      </div>
+    </div>
+    <!-- 作品案例展示 -->
+    <div class="mb-4">
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="works"
+          placeholder="作品案例展示"
+        />
+        <label for="works">作品案例展示</label>
+      </div>
+    </div>
+    <!-- 附件檔案 -->
+    <div>
+      <p class="mb-2">附件檔案</p>
+      <label for="fileUpload" class="btn border"
+        ><span
+          class="material-icons-outlined me-1 align-bottom"
+        >
+          file_upload </span
+        >上傳檔案</label
+      >
+      <input
+        type="file"
+        name="fileUpload"
+        id="fileUpload"
+        class="d-none"
+      />
+    </div>
+  </div>
+</div>

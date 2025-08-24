@@ -326,12 +326,17 @@ $secondary-50: #36c99f;
 $secondary-35: #268c6f;
 $secondary: $secondary-50;
 
+$danger-90: #FFD0CC;
+$danger-70: #FF7467;
+$danger-45: #E51300;
+$danger: $danger-45;
+
 // $primary:       $blue !default;
 // $secondary:     $gray-600 !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
-$danger: $red !default;
+// $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-900 !default;
 // scss-docs-end theme-color-variables
