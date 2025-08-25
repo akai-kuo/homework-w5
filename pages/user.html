@@ -14,12 +14,12 @@
     <%- include('./layout/header'); -%>
 
     <main class="bg-natural-95">
-      <div class="container py-7">
+      <div class="container py-12">
         <div class="row justify-content-center">
           <div class="col-10">
             <!-- tablist -->
             <ul
-              class="nav nav-pills justify-content-center mb-5 tab-btn-bg"
+              class="nav nav-pills justify-content-center mb-6 tab-btn-bg"
               id="pills-tab"
               role="tablist"
             >
@@ -73,7 +73,7 @@
               </li>
             </ul>
             <div
-              class="tab-content p-6 shadow rounded-3 bg-white"
+              class="tab-content p-9 shadow rounded-3 bg-white"
               id="pills-tabContent"
             >
               <!-- 個人資料 -->
@@ -95,7 +95,7 @@
                 tabindex="0"
               >
                 <h2 class="fs-4 mb-4">預約紀錄</h2>
-                <div class="d-flex gap-4 mb-5">
+                <div class="d-flex gap-4 mb-9">
                   <div class="card w-100">
                     <div class="card-body text-center py-4">
                       <h3 class="fs-2 fw-bold mb-2 text-primary">3</h3>
@@ -254,6 +254,15 @@
                   <!-- 4.教育背景 -->
                   <%- include('./layout/user/plan/education'); -%>
                 </form>
+                <button 
+                type="button" 
+                class="btn btn-light border-natural-85 py-3 ps-5 pe-3 rounded-pill d-flex justify-content-between"
+                >
+                匯出 PDF
+                <span class="material-icons-outlined align-bottom ps-1"> 
+                  chevron_right 
+                </span>
+              </button>
               </div>
             </div>
           </div>
