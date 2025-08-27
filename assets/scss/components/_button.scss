@@ -1,3 +1,9 @@
-.btn-outline {
-  
+.btn-light:hover {
+  background-color: $natural-90;
+  border: 1px solid $natural-90;
+}
+
+.btn-dark:hover {
+  background-color: $secondary;
+  border: 1px solid $secondary;
 }

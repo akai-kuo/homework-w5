@@ -326,9 +326,9 @@ $secondary-50: #36c99f;
 $secondary-35: #268c6f;
 $secondary: $secondary-50;
 
-$danger-90: #FFD0CC;
-$danger-70: #FF7467;
-$danger-45: #E51300;
+$danger-90: #ffd0cc;
+$danger-70: #ff7467;
+$danger-45: #e51300;
 $danger: $danger-45;
 
 // $primary:       $blue !default;
@@ -682,8 +682,8 @@ $aspect-ratios: (
 // $font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
 //   "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
 //   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-sans-serif: "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto,
-  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+$font-family-sans-serif: "Noto Sans TC", system-ui, -apple-system, "Segoe UI",
+  Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
   "Liberation Mono", "Courier New", monospace !default;
@@ -845,10 +845,11 @@ $table-active-bg: rgba(
 
 $table-hover-color: $table-color !default;
 $table-hover-bg-factor: 0.075 !default;
-$table-hover-bg: rgba(
-  var(--#{$prefix}emphasis-color-rgb),
-  $table-hover-bg-factor
-) !default;
+// $table-hover-bg: rgba(
+//   var(--#{$prefix}emphasis-color-rgb),
+//   $table-hover-bg-factor
+// ) !default;
+$table-hover-bg: $primary-90 !default;
 
 $table-border-factor: 0.2 !default;
 $table-border-width: var(--#{$prefix}border-width) !default;
