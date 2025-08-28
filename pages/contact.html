@@ -4,11 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
     <title>contact</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <h1>我是contact</h1>
+
+    <main class="bg-natural-95">
+      <div class="container py-12">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="contact-title">
+              <h1 class="text-center mb-6 fs-2 fw-bold">聯絡我們</h1>
+              <p class="text-center text-natural-50 mb-9 fs-5">
+                每一封郵件，我們都會親自回覆。每一通電話，都是新可能的開始。
+              </p>
+              <img
+                src="/assets/images/form-top.svg"
+                class="contact-title-img d-none d-llg-block"
+                alt="form-top"
+              />
+            </div>
+            <div class="p-9 shadow rounded-3 bg-white">
+              <div>
+                <form action="">
+                  <!-- 1.基本資料 -->
+                  <%- include('./layout/contact/basicinfo'); -%>
+                  <!-- 2.諮詢需求 -->
+                  <%- include('./layout/contact/requirement'); -%>
+                  <!-- 3.聯絡偏好 -->
+                  <%- include('./layout/contact/preference'); -%>
+                </form>
+                <!-- button -->
+                <div
+                  class="d-flex flex-column-reverse flex-md-row justify-content-center"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-light border-natural-85 py-3 ps-5 pe-3 me-6 mb-6 mb-md-0 rounded-pill d-flex justify-content-center"
+                  >
+                    重新填寫
+                    <span class="material-icons-outlined align-bottom ps-1">
+                      chevron_right
+                    </span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-dark py-3 ps-5 pe-3 mb-4 mb-md-0 rounded-pill d-flex justify-content-center"
+                  >
+                    確認送出
+                    <span class="material-icons-outlined align-bottom ps-1">
+                      chevron_right
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>

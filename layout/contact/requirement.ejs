@@ -1,0 +1,127 @@
+<div class="d-flex gap-4 border-bottom pb-6 mb-6">
+  <!-- 左側類別名稱 -->
+  <div class="flex-shrink-0 side-width">
+    <h2 class="fs-4 mb-3">諮詢需求</h2>
+    <p class="text-natural-50">
+      欄位皆為<span class="badge rounded-pill text-bg-danger ms-1">必填</span>
+    </p>
+  </div>
+  <!-- 右側表單 -->
+  <div>
+    <!-- 諮詢主題 -->
+    <div class="mb-4">
+      <p class="mb-2">諮詢主題</p>
+      <div class="px-2">
+        <div class="form-check form-check-inline me-4 mb-2">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-1"
+            value="topic-1"
+          />
+          <label class="form-check-label" for="topic-1">職涯探索與方向</label>
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-2"
+            value="topic-2"
+          />
+          <label class="form-check-label" for="topic-2">接案與技能變現</label>
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-3"
+            value="topic-3"
+          />
+          <label class="form-check-label" for="topic-3">品牌與內容經營</label>
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-4"
+            value="topic-4"
+          />
+          <label class="form-check-label" for="topic-4"
+            >遠端工作與數位游牧</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-5"
+            value="topic-5"
+          />
+          <label class="form-check-label" for="topic-5">收入與時間管理</label>
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-6"
+            value="topic-6"
+          />
+          <label class="form-check-label" for="topic-6"
+            >其他（請填寫下題）</label
+          >
+        </div>
+        <div id="topic" class="form-text text-natural-50">
+          可複選，讓我們更了解你的狀況，安排最適合的顧問與建議。
+        </div>
+      </div>
+    </div>
+    <!-- 期望諮詢的專家 -->
+    <div class="mb-4">
+      <div class="dropdown">
+        <button
+          class="form-select text-start py-3"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          期望諮詢的專家
+        </button>
+        <ul class="dropdown-menu w-100 mt-2">
+          <li>
+            <a class="dropdown-item" href="#">專家1</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">專家2</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">專家3</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 您目前面臨的主要挑戰 -->
+    <div class="mb-4">
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="您目前面臨的主要挑戰"
+          id="challenge"
+          style="height: 160px"
+        ></textarea>
+        <label for="challenge"> 您目前面臨的主要挑戰 </label>
+      </div>
+    </div>
+    <!-- 期望達成的目標 -->
+    <div class="mb-4">
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="期望達成的目標"
+          id="goal"
+          style="height: 160px"
+        ></textarea>
+        <label for="goal"> 期望達成的目標 </label>
+      </div>
+    </div>
+  </div>
+</div>
