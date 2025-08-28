@@ -4,27 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
     <title>contact</title>
-    <script type="module" crossorigin src="/homework-w5/assets/main-7UpQWGhQ.js"></script>
-    <link rel="stylesheet" crossorigin href="/homework-w5/assets/main-DkrHxEGZ.css">
+    <script type="module" crossorigin src="/homework-w5/assets/main-BK85S4rG.js"></script>
+    <link rel="stylesheet" crossorigin href="/homework-w5/assets/main-CHgvYAuZ.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom py-3">
   <div class="container">
     <a class="navbar-brand" href="#">
-        <img src="/homework-w5/assets/logo-CRTeTChE.svg" alt="logo">
+      <img src="/homework-w5/assets/logo-DGyMmxSt.svg" alt="logo" />
     </a>
-    <button 
-    class="navbar-toggler" 
-    type="button" 
-    data-bs-toggle="collapse" 
-    data-bs-target="#navbarSupportedContent" 
-    aria-controls="navbarSupportedContent" 
-    aria-expanded="false" 
-    aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item me-3">
@@ -34,15 +27,519 @@
           <a class="nav-link" href="#">關於職旅</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">聯絡我們</a>
+          <a class="nav-link" href="contact.html">聯絡我們</a>
         </li>
       </ul>
     </div>
     <a href="user.html">
-        <img src="/homework-w5/assets/avatar-QGHQ479s.png" alt="user-image" class="rounded-circle border me-2 user-image">Mokumaru
+      <img
+        src="/homework-w5/assets/avatar-QGHQ479s.png"
+        alt="user-image"
+        class="rounded-circle border me-2 user-image"
+      />Mokumaru
     </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
   </div>
-</nav>    <h1>我是contact</h1>
-    <footer class="footer">footer</footer>
+</nav>
+
+    <main class="bg-natural-95">
+      <div class="container py-12">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="contact-title">
+              <h1 class="text-center mb-6 fs-2 fw-bold">聯絡我們</h1>
+              <p class="text-center text-natural-50 mb-9 fs-5">
+                每一封郵件，我們都會親自回覆。每一通電話，都是新可能的開始。
+              </p>
+              <img
+                src="/homework-w5/assets/form-top-F0dOtpe4.svg"
+                class="contact-title-img d-none d-llg-block"
+                alt="form-top"
+              />
+            </div>
+            <div class="p-9 shadow rounded-3 bg-white">
+              <div>
+                <form action="">
+                  <!-- 1.基本資料 -->
+                  <div
+  class="d-flex flex-column flex-lg-row gap-4 pb-6 mb-0 mb-lg-6 border-bottom"
+>
+  <!-- 左側類別名稱 -->
+  <div class="flex-shrink-0 side-width">
+    <h2 class="fs-4 mb-3">基本資料</h2>
+    <p class="text-natural-50">
+      欄位皆為<span class="badge rounded-pill text-bg-danger ms-1">必填</span>
+    </p>
+  </div>
+  <!-- 右側表單 -->
+  <div class="w-100">
+    <!-- 姓名 -->
+    <div class="mb-4 mb-lg-6">
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="name" placeholder="姓名" />
+        <label for="name">姓名</label>
+      </div>
+    </div>
+    <!-- 信箱 -->
+    <div class="mb-4 mb-lg-6">
+      <div class="form-floating">
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="信箱"
+        />
+        <label for="email">信箱</label>
+      </div>
+      <div id="email" class="form-text text-natural-50">
+        盡量勿使用Yahoo或Hotmail郵件信箱，以免因擋信、漏信
+      </div>
+    </div>
+    <!-- 聯絡電話 -->
+    <div class="mb-4 mb-lg-6">
+      <div class="form-floating mb-3">
+        <input
+          type="tel"
+          class="form-control"
+          id="tel"
+          placeholder="聯絡電話"
+        />
+        <label for="tel">聯絡電話</label>
+      </div>
+      <div id="tel" class="form-text text-natural-50">
+        我們不會以電話主動聯繫您，告知您要至ATM操作轉帳
+      </div>
+    </div>
+    <!-- 目前職業/工作身分 -->
+    <div class="mb-4">
+      <div class="dropdown">
+        <button
+          class="form-select text-start py-3"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          目前職業/工作身分
+        </button>
+        <ul class="dropdown-menu w-100 mt-2">
+          <li>
+            <a class="dropdown-item" href="#">科技</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">媒體</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">教育</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">金融</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">醫療健康</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">零售製造</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">服務業</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">藝術創意</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">非營利組織</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+                  <!-- 2.諮詢需求 -->
+                  <div class="d-flex gap-4 border-bottom pb-6 mb-6">
+  <!-- 左側類別名稱 -->
+  <div class="flex-shrink-0 side-width">
+    <h2 class="fs-4 mb-3">諮詢需求</h2>
+    <p class="text-natural-50">
+      欄位皆為<span class="badge rounded-pill text-bg-danger ms-1">必填</span>
+    </p>
+  </div>
+  <!-- 右側表單 -->
+  <div>
+    <!-- 諮詢主題 -->
+    <div class="mb-4">
+      <p class="mb-2">諮詢主題</p>
+      <div class="px-2">
+        <div class="form-check form-check-inline me-4 mb-2">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-1"
+            value="topic-1"
+          />
+          <label class="form-check-label" for="topic-1">職涯探索與方向</label>
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-2"
+            value="topic-2"
+          />
+          <label class="form-check-label" for="topic-2">接案與技能變現</label>
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-3"
+            value="topic-3"
+          />
+          <label class="form-check-label" for="topic-3">品牌與內容經營</label>
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-4"
+            value="topic-4"
+          />
+          <label class="form-check-label" for="topic-4"
+            >遠端工作與數位游牧</label
+          >
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-5"
+            value="topic-5"
+          />
+          <label class="form-check-label" for="topic-5">收入與時間管理</label>
+        </div>
+        <div class="form-check form-check-inline me-4">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="topic-6"
+            value="topic-6"
+          />
+          <label class="form-check-label" for="topic-6"
+            >其他（請填寫下題）</label
+          >
+        </div>
+        <div id="topic" class="form-text text-natural-50">
+          可複選，讓我們更了解你的狀況，安排最適合的顧問與建議。
+        </div>
+      </div>
+    </div>
+    <!-- 期望諮詢的專家 -->
+    <div class="mb-4">
+      <div class="dropdown">
+        <button
+          class="form-select text-start py-3"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          期望諮詢的專家
+        </button>
+        <ul class="dropdown-menu w-100 mt-2">
+          <li>
+            <a class="dropdown-item" href="#">專家1</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">專家2</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">專家3</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 您目前面臨的主要挑戰 -->
+    <div class="mb-4">
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="您目前面臨的主要挑戰"
+          id="challenge"
+          style="height: 160px"
+        ></textarea>
+        <label for="challenge"> 您目前面臨的主要挑戰 </label>
+      </div>
+    </div>
+    <!-- 期望達成的目標 -->
+    <div class="mb-4">
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="期望達成的目標"
+          id="goal"
+          style="height: 160px"
+        ></textarea>
+        <label for="goal"> 期望達成的目標 </label>
+      </div>
+    </div>
+  </div>
+</div>
+                  <!-- 3.聯絡偏好 -->
+                  <div
+  class="d-flex flex-column flex-lg-row gap-4 pb-6 mb-0 mb-lg-6"
+>
+  <!-- 左側類別名稱 -->
+  <div class="flex-shrink-0 side-width">
+    <h2 class="fs-4 mb-3">聯絡偏好</h2>
+    <p class="text-natural-50">
+      欄位皆為選填
+    </p>
+  </div>
+      <!-- 右側表單 -->
+      <div class="w-100">
+        <!-- 偏好聯絡方式 -->
+        <div class="mb-4 mb-lg-6">
+          <p class="mb-2">偏好聯絡方式</p>
+          <div class="px-2">
+            <div class="form-check form-check-inline me-4 me-lg-6">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="contact"
+                id="email"
+                value="email"
+                checked
+              />
+              <label class="form-check-label ms-1" for="email">信箱</label>
+            </div>
+            <div class="form-check form-check-inline me-4 me-lg-6">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="contact"
+                id="tel"
+                value="tel"
+              />
+              <label class="form-check-label ms-1" for="tel">電話</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="contact"
+                id="line"
+                value="line"
+              />
+              <label class="form-check-label ms-1" for="line">LINE</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="contact"
+                id="discord"
+                value="discord"
+              />
+              <label class="form-check-label ms-1" for="discord">Discord</label>
+            </div>
+          </div>
+        </div>
+        <!-- 生日 -->
+        <div class="mb-4 mb-lg-6">
+          <div class="form-floating">
+            <input
+              type="date"
+              class="form-control"
+              id="birthday"
+              placeholder="生日"
+            />
+            <label for="birthday">生日</label>
+          </div>
+        </div>
+        <!-- 密碼 -->
+        <div class="mb-4 mb-lg-6">
+          <p class="mb-2">密碼</p>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-light border-natural-85 py-3 px-2 ps-lg-5 pe-lg-3 rounded-pill d-flex justify-content-center"
+            data-bs-toggle="modal"
+            data-bs-target="#newpw"
+          >
+            修改密碼
+            <span class="material-icons-outlined align-bottom ps-1">
+              chevron_right
+            </span>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="newpw"
+            tabindex="-1"
+            aria-labelledby="newpw"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="newpw">更新密碼</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body p-6">
+                  <div class="mb-6">
+                    <div class="form-floating">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="password"
+                        placeholder="密碼"
+                      />
+                      <label for="password">密碼</label>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="form-floating">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="re-password"
+                        placeholder="再次密碼"
+                      />
+                      <label for="re-password">再次密碼</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark py-3 ps-5 pe-3 mb-4 mb-md-0 rounded-pill d-flex justify-content-center"
+                    data-bs-dismiss="modal"
+                  >
+                    更新密碼
+                    <span class="material-icons-outlined align-bottom ps-1">
+                      chevron_right
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 信箱 -->
+        <div class="mb-4 mb-lg-6">
+          <div class="form-floating">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="信箱"
+            />
+            <label for="email">信箱</label>
+          </div>
+          <div id="email" class="form-text text-natural-50">
+            盡量勿使用Yahoo或Hotmail郵件信箱，以免因擋信、漏信
+          </div>
+        </div>
+        <!-- 聯絡電話 -->
+        <div class="mb-4 mb-lg-6">
+          <div class="form-floating mb-3">
+            <input
+              type="tel"
+              class="form-control"
+              id="tel"
+              placeholder="聯絡電話"
+            />
+            <label for="tel">聯絡電話</label>
+          </div>
+        </div>
+        <!-- 通訊地址 -->
+        <div>
+          <div class="form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="address"
+              placeholder="通訊地址"
+            />
+            <label for="address">通訊地址</label>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+                </form>
+                <!-- button -->
+                <div
+                  class="d-flex flex-column-reverse flex-md-row justify-content-center"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-light border-natural-85 py-3 ps-5 pe-3 me-6 mb-6 mb-md-0 rounded-pill d-flex justify-content-center"
+                  >
+                    重新填寫
+                    <span class="material-icons-outlined align-bottom ps-1">
+                      chevron_right
+                    </span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-dark py-3 ps-5 pe-3 mb-4 mb-md-0 rounded-pill d-flex justify-content-center"
+                  >
+                    確認送出
+                    <span class="material-icons-outlined align-bottom ps-1">
+                      chevron_right
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+  <nav class="navbar navbar-expand-lg navbar-light py-9">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">服務方案</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">關於職旅</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">聯絡我們</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">隱私權政策</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">用戶條款</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Copyright © 2025 職旅 workway. All rights reserved.
+        </span>
+      </div>
+    </div>
+  </nav>
+</footer>
+
   </body>
 </html>
